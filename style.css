@@ -1,0 +1,45 @@
+body{
+  color : black;
+}
+a{
+  text-decoration:none;
+  color : black;
+}
+h1 a:hover {
+  color:#CCCC00;
+}
+a:hover {
+  color:skyblue;
+}
+
+ol{
+  list-style-type:none;
+  margin:auto;
+  width:250px;
+  margin:20px;
+}
+
+h1 {
+  width: 10%;
+  text-align: center;
+  border-left : solid black 3pt;
+  padding-left : 3pt;
+  margin:15px;
+
+}
+h2{
+  font-size: 20px;
+  margin: 2px;
+}
+
+.camera {
+  margin:auto;
+  width: 250px;
+}
+
+@media(max-width:530px) {
+  h1{
+    width: 10%;
+    text-align: center;
+  }
+}
